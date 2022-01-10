@@ -17,6 +17,6 @@ User message --->{"id":"1","name":"some_name","age":"24","course":"BTech."}
 
 > $ bin/kafka-server-start.sh config/server.properties
 
-*Create Topic
+* Create Topic
 
 > $ bin/kafka-topics.sh --create --topic mytopic2 --partitions 1 --replication-factor 1 --bootstrap-server localhost:9092
